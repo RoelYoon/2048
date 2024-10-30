@@ -1,5 +1,6 @@
 #include <game.hpp>
 int main(){
+    //this is a copy
     int board[4][4];
     initialize_board(board);
     initialize_IO();
