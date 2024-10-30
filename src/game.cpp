@@ -5,6 +5,7 @@ int main(){
     initialize_board(board);
     initialize_IO();
     while(!game_over(board)){
+        //f2 feature
         update_board(board,input());
         render_board(board);
     }
