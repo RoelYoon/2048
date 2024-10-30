@@ -5,5 +5,6 @@ void initialize_board(int board[4][4]){
             board[r][c]=0;
 }
 void update_board(int board[4][4], int move){
-    
+    if(move==-1) return;
+    output(std::to_string(move)+"\n");
 }

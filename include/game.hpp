@@ -1,7 +1,9 @@
 #include <cpp_header.hpp>
 void initialize_board(int board[4][4]);
 void initialize_IO();
+void new_screen();
 int input();
+void output(std::string message);
 void output(std::string &message);
 bool game_over(int board[4][4]);
 void render_board(int board[4][4]);
